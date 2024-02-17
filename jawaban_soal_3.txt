@@ -1,0 +1,15 @@
+Apa itu fork dan pull request pada github ?
+
+Fork pada github adalah sebuah tindakan membuat copy/duplikat dari sebuah repo
+sitory yang dimiliki oleh orang lain ke akun pribadi anda beserta semua history
+commitnya. 
+
+Dengan melakukan fork, kita dapat melakukan modifikasi pada repository tersebut
+tanpa mengubah repository yang original. Mofidikasi yang telah kita buat terhadap
+repository tersebut dapat kita usulkan kembali ke pemilik repository original 
+agar modifikasi tersebut diterapkan. Proses pengusulan modifikasi tersebut dinamakan 
+sebagai "PULL REQUEST"
+
+Untuk kesimpulan, fork adalah cara untuk menduplikat sebuah repository dan melakukan 
+modifikasi terhadapnya tanpa mengubah repository utama dan pull request adalah proses
+pengajuan supaya modifikasi tersebut dapat diterapkan di repository utama.

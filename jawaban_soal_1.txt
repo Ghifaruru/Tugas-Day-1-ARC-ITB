@@ -1,0 +1,16 @@
+Apa itu merge conflict dan bagaimana cara untuk menanggulanginya?
+
+Merge conflict pada git adalah sebuah kasus dimana terdapat dua perubahan yang 
+tidak dapat disatukan secara otomatis oleh git pada proses merging (penyatuan).
+Kasus ini terjadi saat dua buah branch berbeda melakukan perubahan pada bagian 
+yang sama dari sebuah file, sehingga git tidak tau perubahan mana yang harus di
+terapkan. Pada kasus ini git akan otomatis memberikan pesan bahwa kedua branch
+tidak dapat dimerge dan harus diselesaikan permasalahannya terlebih dahulu.
+
+Penyelesaian :
+
+Saat terjadi merge conflict, git akan menunjukan file yang berisi perubahan yang
+terjadi di kedua branch. Untuk menyelesaikan masalah tersebut, pengguna harus me-
+ngedit file tersebut secara manual dan menentukan perubahan mana yang akan diguna
+kan. Setelah file tersebut di edit, pengguna dapat melanjutkan proses merging se-
+perti biasa. 

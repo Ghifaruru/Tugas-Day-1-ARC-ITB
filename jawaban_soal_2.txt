@@ -1,0 +1,11 @@
+Apa itu git rebase ?
+
+Sama halnya dengan git merge, git rebase adalah sebuah cara untuk menggabungkan
+sebuah perubahan dari suatu branch ke branch yang lain. Berbeda dengan git merge,
+git rebase akan menggeser atau rebase branch saat ini ke posisi awal branch yang 
+ingin digabungkan. 
+
+Benefit dari git rebase dibandingkan dengan git merge adalah git rebase dapat men-
+jaga history commit tetap linier dan lebih mudah dimengerti dan dipantau. Biasanya, 
+git rebase lebih sering digunakan dibanding git merge dalam projek yang sangat be-
+sar untuk memudahkan pemantauan commit dan progress.
